@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">JetInstagram</string>
+  <string name="disclaimer">New posts from your favorites will
+    appear higher in feed. Only you can see who you  add or remove.
+    How it works</string>
+    <string name="placeholder_search">Search</string>
 </resources>

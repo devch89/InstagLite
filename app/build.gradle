@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-  compileSdkVersion 30
+  compileSdkVersion 33
   buildToolsVersion "30.0.3"
 
   defaultConfig {
     applicationId "com.vipulasri.jetinstagram"
     minSdkVersion 21
-    targetSdkVersion 30
+    targetSdkVersion 33
     versionCode 1
     versionName "1.0"
 
@@ -68,6 +68,8 @@ dependencies {
   implementation Libs.AndroidX.Compose.animation
   implementation Libs.AndroidX.Compose.tooling
   implementation Libs.AndroidX.Compose.activity
+  debugImplementation Libs.AndroidX.Compose.tooling
+
 
   implementation Libs.Coil.sdk
   implementation Libs.exoplayer
@@ -76,4 +78,5 @@ dependencies {
   androidTestImplementation Libs.AndroidX.Test.core
   androidTestImplementation Libs.AndroidX.Test.Ext.junit
   androidTestImplementation Libs.AndroidX.Test.rules
+
 }

@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.vipulasri.jetinstagram.R
 import com.vipulasri.jetinstagram.data.PostsRepository
@@ -23,6 +24,7 @@ import com.vipulasri.jetinstagram.model.Post
 import com.vipulasri.jetinstagram.model.Story
 import com.vipulasri.jetinstagram.ui.components.icon
 import kotlinx.coroutines.launch
+
 
 @ExperimentalFoundationApi
 @Composable

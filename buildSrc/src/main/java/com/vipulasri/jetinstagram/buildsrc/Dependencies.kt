@@ -1,7 +1,7 @@
 package com.vipulasri.jetinstagram.buildsrc
 
 object Libs {
-  const val androidGradlePlugin = "com.android.tools.build:gradle:7.1.0-alpha12"
+  const val androidGradlePlugin = "com.android.tools.build:gradle:7.4.1"
   const val junit = "junit:junit:4.13"
 
   const val exoplayer = "com.google.android.exoplayer:exoplayer:2.11.8"
@@ -45,6 +45,7 @@ object Libs {
       const val material = "androidx.compose.material:material:${version}"
       const val animation = "androidx.compose.animation:animation:${version}"
       const val activity = "androidx.activity:activity-compose:${activityComposeVersion}"
+
     }
 
     object Test {
